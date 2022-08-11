@@ -16,11 +16,11 @@ function DecimalABinario(num) {
   // tu codigo aca
   let num1 = num;
     let binary = (num1 % 2).toString();
-    for (; num1 > 1; ) {
+    while (num1 > 1) {
         num1 = parseInt(num1 / 2);
         binary =  (num1 % 2) + (binary);
     }
-    console.log(binary);
+    return binary;
 }
 
 
