@@ -49,12 +49,12 @@ function Queue() {
    this.enqueue.push(elemento)
 }
 
-  Queue.prototype.dequeue=function(elemento){
+  Queue.prototype.dequeue=function(){
   this.dequeue.shift()
 
   }
   
-  Queue.prototype.size=function(elemento){
+  Queue.prototype.size=function(){
     return this.size.lenght()
   
     }
